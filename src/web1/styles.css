@@ -1,0 +1,292 @@
+
+/* header  */
+
+
+h1 {
+    color: rgb(99, 88, 81);
+    vertical-align: middle;
+    padding: 0px;
+    text-align: center;
+    font-size: 3rem;
+}
+.header {
+    /* background-image: linear-gradient(60deg, black, black ); */
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 2px 2px 10px rgb(158, 157, 157);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.greeting {
+    font-size: 1.5rem;
+    /* color: #FF6D60; */
+}
+
+
+/* note  */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+.note {
+    /* background-color: white; */
+    background-image: url(data:image/jpeg;base64,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);
+    border-radius: 10px;
+    color: black;
+    font-size: 1rem;
+    width: 50%;
+    padding-left: 2rem;
+    margin-top: 40px;
+}
+.note-case {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+
+.note-case:hover{
+    background-color:  #EEEEEE ;
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+              
+
+.note-p {
+    padding-top: 1rem;
+    text-align: center;
+    color: black;
+}
+.note-t {
+    padding-top: 1rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* footer  */
+p {
+    color: grey;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+/* imput div styles  */
+
+.note-input-div {
+    box-shadow: 4px 4px 7px grey;
+    display: grid;
+    place-content: center;
+    margin: 2rem;
+    grid-template-columns: 1fr;
+    border-radius: 10px 0px 10px;
+}
+
+.input-div {
+    outline: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+
+
+.input-div:hover{
+    transform: translatey(-10px);
+    -webkit-transform: translatey(-10px);
+    -moz-transform: translatey(-10px);
+}
+              
+
+.add-note {
+    
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #617A55 ;
+    box-shadow: 4px 4px 6px grey;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    position: relative;
+    left: 80%;
+    top: -10%;
+    
+}
+
+
+              
+.add-note:hover{
+    animation-name: shake;
+        -webkit-animation-name: shake;
+        -moz-animation-name: shake;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+}
+
+    @keyframes shake {
+        0%  {transform: translate(1px, 1px) rotate(0deg);}
+        10% {transform: translate(-1px, -2px) rotate(-1deg);}
+        20% {transform: translate(-3px, 0px) rotate(1deg);}
+        30% {transform: translate(3px, 2px) rotate(0deg);}
+        40% {transform: translate(1px, -1px) rotate(1deg);}
+        50% {transform: translate(-1px, 2px) rotate(-1deg);}
+        60% {transform: translate(-3px, 1px) rotate(0deg);}
+        70% {transform: translate(3px, 1px) rotate(-1deg);}
+        80% {transform: translate(-1px, -1px) rotate(1deg);}
+        90% {transform: translate(1px, 2px) rotate(0deg);}
+        100% {transform: translate(1px, -2px) rotate(-1deg);}
+    }
+              
+
+  
+
+
+.delete {
+    background-image: linear-gradient(45deg, red, orangered);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: 3px 3px 4px grey;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 30px;
+    position: relative;
+    left: 40%;
+    width: 30px;
+
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+
+    
+}
+
+
+.delete:hover{
+    box-shadow: 0 8px 8px 0 #bebbbc,0 8px 8px 0 #adadab;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
+
+.checked {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    box-shadow: 3px 3px 5px gray;
+    font-size: 1.5rem;
+    color: aqua;
+    
+
+
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.checked:hover{
+    box-shadow: 0 8px 8px 0 #bebbbc,0 8px 8px 0 #adadab;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
+.time {
+    text-align: left;
+    font-size: .6rem;
+}
+
+
+
+
+@media (max-width: 410px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: .8rem;
+    }
+    .greeting {
+        font-size: 1rem;
+    }
+    .input-div {
+        font-size: .8rem;
+    }
+
+    .note-p {
+        padding-top: .7rem;
+    }
+
+    .add-note {
+        font-size: 1.2rem;
+        height: 30px;
+        width: 30px;
+    }
+
+    .delete {
+        font-size: 1.2rem;
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+    h1 {
+        font-size: 1rem;
+    }
+    p{
+        font-size: .6rem;
+    }
+    .greeting {
+        font-size: .8rem;
+    }
+    .input-div {
+        font-size: .6rem;
+    }
+
+    .note-p {
+        padding-top: .5rem;
+    }
+
+    .add-note {
+        font-size: 1rem;
+        height: 30px;
+        width: 30px;
+    }
+
+    .delete {
+        font-size: 1rem;
+        height: 30px;
+        width: 30px;
+    }
+
+}
+              
+              
