@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM  from 'react-dom';
-import Calc from '../src/calculator/calc';
+// import Calc from '../src/calculator/calc';
 import '../src/styles.css';
 import App from './web1/App';
 // import App from '../src/card/App';
